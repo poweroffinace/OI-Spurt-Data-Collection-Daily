@@ -26,7 +26,7 @@ jobs:
           pip install pandas requests
 
       - name: Run data collection script
-        run: python "OI Spurts.py" # Ensure this matches your filename exactly
+        run: python "oi-spurt-data-collection.py" # Ensure this matches your filename exactly
 
       - name: Commit and Push changes
         run: |
